@@ -19,7 +19,7 @@ CM_Data <- subset(Child_Marriage_Data, select = -c(3, 5, 6, 7, 9, 10, 11))
 CM_Data
 CMData <- na.omit(CM_Data)
 
-# let's check what desc order would look like"
+# let's check what desc order would look like
 
 sort(CMData$female_married_by_18, decreasing = TRUE)
 CMData
